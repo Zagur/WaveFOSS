@@ -1,6 +1,6 @@
 {
-    "name": "wave",
-    "description": "A Ghost theme",
+    "name": "wavefoss",
+    "description": "A podcast theme for Ghost",
     "version": "1.0.0",
     "private": true,
     "engines": {
@@ -57,17 +57,24 @@
                 "options": ["Modern sans-serif", "Elegant serif"],
                 "default": "Modern sans-serif"
             },
-            "apple_podcasts_link": {
+            "xmpp_room_link": {
                 "type": "text",
-                "default": "https://podcasts.apple.com/"
+                "default": "https://conversations.im/j/novadelinux@salas.arrel.cloud"
             },
-            "google_podcasts_link": {
+            "funkwhale_link": {
                 "type": "text",
-                "default": "https://podcasts.google.com/"
+                "default": "https://open.audio/@novadelinux/"
             },
-            "spotify_link": {
+            "mastodon_link": {
                 "type": "text",
-                "default": "https://open.spotify.com/"
+                "default": "https://xarxa.cloud/@novadelinux"
+            },
+            "archive_link": {
+                "type": "text",
+                "default": "https://archive.org/details/@nvdlpodcast"
+            },
+            "rss_blog_link": {
+                "type": "text"
             },
             "rss_link": {
                 "type": "text"
